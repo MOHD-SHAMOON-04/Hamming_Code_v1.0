@@ -269,7 +269,7 @@ function freeNoise() {
             break;
         }
     }
-    console.log(`err at (${x}, ${y})`);
+    alert(`err at (${x}, ${y})`);
     // result[i].innerText
     tempMatrix[x][y] = (tempMatrix[x][y] == '1') ? '0' : '1';
 
